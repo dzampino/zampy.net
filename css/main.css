@@ -1,17 +1,23 @@
 ul {
   padding: 0; }
 
-#full-page {
-  border: 5px solid green; }
-
-#content {
-  border: 5px solid red; }
-
 header {
-  border: 5px solid #F0F; }
+  margin: 1rem 0; }
+
+#logo {
+  max-width: 25rem;
+  margin: 0 auto; }
+
+nav {
+  text-align: center;
+  margin: 1rem 0; }
 
 .nav-item {
-  list-style: none;
-  display: inline-block; }
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 1rem; }
+
+.selected {
+  text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

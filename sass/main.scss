@@ -4,20 +4,32 @@ ul {
     padding: 0;
 }
 
-#full-page {
-    border: 5px solid green;
-}
+// Body
 
-#content {
-    border: 5px solid red;
-}
 
+// Header
 header {
-    border: 5px solid #F0F;
+    margin: 1rem 0;
+}
+
+// Logo
+#logo {
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+// Navbar
+nav {
+    text-align: center;
+    margin: 1rem 0;
 }
 
 .nav-item {
-    list-style: none;
+    list-style-type: none;
     display: inline-block;
+    margin: 0 1rem;
 }
 
+.selected {
+    text-decoration: underline;
+}
