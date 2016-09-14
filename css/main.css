@@ -2,6 +2,9 @@ ul {
   padding: 0;
   list-style-type: none; }
 
+body {
+  color: rgba(0, 0, 0, 0.8); }
+
 header {
   margin: 1rem 0; }
 
@@ -11,21 +14,29 @@ header {
 
 nav {
   text-align: center;
-  margin: 1rem 0; }
+  margin: 1rem 0;
+  font-size: 2rem; }
 
 .nav-item {
   display: inline-block;
   margin: 0 1rem; }
 
-.selected {
-  text-decoration: underline; }
-
 #content {
   padding: 1rem;
-  text-align: center; }
+  text-align: left; }
+  #content li {
+    padding: 2rem;
+    font-size: 2rem; }
   #content h1 {
-    background-color: #009ce0;
-    color: #ffffff;
-    padding: 3rem; }
+    text-align: center; }
+
+footer {
+  margin: 3rem;
+  font-size: 1.8rem;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  nav {
+    text-align: right; } }
 
 /*# sourceMappingURL=main.css.map */
