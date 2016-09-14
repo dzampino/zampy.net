@@ -1,7 +1,13 @@
+// Variables
+$primary-color: #009ce0;
+$secondary-color: #faaa42;
+$white: #ffffff;
+
 // General changes
 
 ul {
-    padding: 0;
+    padding: 0;    
+    list-style-type: none;
 }
 
 // Body
@@ -25,11 +31,22 @@ nav {
 }
 
 .nav-item {
-    list-style-type: none;
     display: inline-block;
     margin: 0 1rem;
 }
 
 .selected {
     text-decoration: underline;
+}
+
+// Content
+#content {
+    padding: 1rem;
+    
+    text-align: center;
+    h1 {
+        background-color: $primary-color;
+        color: $white;
+        padding: 3rem;
+    }
 }
